@@ -1,0 +1,60 @@
+.d1 {
+    margin: 0;
+    position: relative;
+    border: 2px solid black;
+    width: 20%;
+    height: 25rem;
+    display: inline-block;
+    left: 38rem;
+    top: 5rem;
+}
+
+.d2 {
+    position: absolute;
+    border: solid black 2px;
+    background: cadetblue;
+    height: 18rem;
+    width: 15rem;
+    top: 2rem;
+    left: 1rem;
+    margin: 0;
+}
+
+form {
+    background: darkgrey;
+    z-index: 1;
+    position: relative;
+    border: solid tomato 1px;
+    top: 7rem;
+    left: 7rem;
+    height: 9rem;
+    width: 11rem;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+#btn {
+    position: absolute;
+    top: 7rem;
+    right: 9rem;
+}
+
+#uname {
+    position: absolute;
+    top: 1rem;
+}
+
+#username {
+    position: absolute;
+    top: 2rem;
+}
+
+#pass {
+    top: 4rem;
+    position: absolute;
+}
+
+#password {
+    position: absolute;
+    top: 5rem;
+}
